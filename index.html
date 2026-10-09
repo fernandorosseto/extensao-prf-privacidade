@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Política de Privacidade – PRF – PDI e Frequência</title>
+<style>
+  :root{--tx:#0f172a;--tx2:#475569;--ln:#e2e8f0;--pri:#0b5394;--bg:#f8fafc}
+  body{margin:0;background:var(--bg);color:var(--tx);font:16px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+  main{max-width:760px;margin:0 auto;padding:32px 16px 48px;background:#fff;border-left:1px solid var(--ln);border-right:1px solid var(--ln);min-height:100vh;box-sizing:border-box}
+  h1{font-size:26px;line-height:1.25;margin:0 0 4px}
+  h2{font-size:18px;margin:28px 0 8px;color:var(--pri)}
+  p,li{color:var(--tx)}
+  .sub{color:var(--tx2);margin:0 0 20px}
+  ul{padding-left:22px}
+  table{border-collapse:collapse;width:100%;font-size:14px;margin:8px 0}
+  th,td{border:1px solid var(--ln);padding:6px 8px;text-align:left;vertical-align:top}
+  th{background:var(--bg)}
+  code{background:var(--bg);border:1px solid var(--ln);border-radius:4px;padding:0 4px;font-size:13px}
+</style>
+</head>
+<body>
+<main>
+  <h1>Política de Privacidade</h1>
+  <p class="sub">Extensão do Chrome “PRF – PDI e Frequência” · atualizada em 09/10/2026</p>
+
+  <h2>Resumo</h2>
+  <p>A extensão funciona apenas dentro de dois sistemas internos da Polícia Rodoviária Federal — <b>pdi.prf.gov.br</b> (Parte Diária Informatizada) e <b>frequencia.prf.gov.br</b> (controle de frequência) — e só para quem já tem acesso a eles com o próprio login. Ela <b>não envia nenhum dado para servidores do autor ou de terceiros</b>, não usa ferramentas de análise ou publicidade e não vende nem compartilha dados.</p>
+
+  <h2>Quais dados a extensão acessa</h2>
+  <p>Para montar calendários, painéis e preencher formulários, a extensão lê as páginas desses dois sistemas, com a sessão aberta pelo próprio usuário. Essas páginas podem conter:</p>
+  <ul>
+    <li>nomes e matrículas de servidores, lotação e equipes;</li>
+    <li>escalas de serviço, cartões programa e partes diárias;</li>
+    <li>afastamentos (inclusive licenças de saúde, usadas para indicar restrições na seleção de voluntários de IFR);</li>
+    <li>registros de frequência, horas de IFR e saldos de banco de horas.</li>
+  </ul>
+  <p>A extensão não lê nem guarda senhas: o login é feito pelo usuário, nas telas dos próprios sistemas.</p>
+
+  <h2>O que fica guardado e onde</h2>
+  <p>Alguns dados ficam guardados <b>somente no navegador do usuário</b> (armazenamento local do Chrome e do site), para passar informações de um sistema ao outro e não precisar consultá-las de novo:</p>
+  <table>
+    <tr><th>Dado</th><th>Para quê</th><th>Por quanto tempo</th></tr>
+    <tr><td>Lista de afastamentos copiada do Frequência</td><td>Lançar os afastamentos na PDI</td><td>Apagada automaticamente após 7 dias</td></tr>
+    <tr><td>Escala de serviço copiada da PDI</td><td>Conferir plantões na seleção de voluntários de IFR</td><td>Apagada automaticamente após 35 dias</td></tr>
+    <tr><td>Folhas e saldos do banco de horas</td><td>Painel do banco de horas</td><td>Apagadas automaticamente após 60 dias</td></tr>
+    <tr><td>Matrículas, seleção de IFR em andamento</td><td>Continuar o trabalho depois de recarregar a página</td><td>Até o usuário apagar</td></tr>
+    <tr><td>Preferências, configurações da delegacia, banco de narrativas</td><td>Ajustes de uso da extensão</td><td>Até o usuário apagar</td></tr>
+  </table>
+  <p>Esses dados não saem do computador do usuário. A permissão <code>storage</code> do Chrome é usada apenas para isso.</p>
+
+  <h2>Como apagar</h2>
+  <p>O botão <b>“Dados guardados”</b> (na PDI, em ⚙ Configurações; no Frequência, na barra do topo) mostra os dados de servidores que a extensão guardou naquele navegador e apaga tudo com um clique. Desinstalar a extensão também remove o armazenamento dela.</p>
+
+  <h2>Permissões</h2>
+  <ul>
+    <li><b>Acesso a pdi.prf.gov.br e frequencia.prf.gov.br:</b> os scripts da extensão rodam só nas páginas desses dois sistemas. Nenhum outro site é acessado.</li>
+    <li><b>storage:</b> guardar no navegador os dados descritos acima.</li>
+  </ul>
+  <p>Todo o código da extensão está no pacote instalado; ela não carrega nem executa código de fora.</p>
+
+  <h2>Compartilhamento</h2>
+  <p>Nenhum dado é vendido, transferido ou compartilhado com terceiros, nem usado para publicidade, avaliação de crédito ou qualquer finalidade alheia ao funcionamento da extensão. As gravações que a extensão faz (por exemplo, criar uma parte diária ou lançar um afastamento) vão apenas para os próprios sistemas da PRF, com o login do usuário, como se ele preenchesse os formulários à mão.</p>
+
+  <h2>Alterações e contato</h2>
+  <p>Mudanças nesta política serão publicadas nesta página, com nova data de atualização. Dúvidas: <a href="mailto:nando.rosseto@prf.gov.br">nando.rosseto@prf.gov.br</a>.</p>
+</main>
+</body>
+</html>
