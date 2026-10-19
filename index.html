@@ -22,7 +22,7 @@
 <body>
 <main>
   <h1>Política de Privacidade</h1>
-  <p class="sub">Extensão do Chrome “PRF – PDI e Frequência” · atualizada em 09/10/2026</p>
+  <p class="sub">Extensão do Chrome “PRF – PDI e Frequência” · atualizada em 19/10/2026</p>
 
   <h2>Resumo</h2>
   <p>A extensão funciona apenas dentro de dois sistemas internos da Polícia Rodoviária Federal — <b>pdi.prf.gov.br</b> (Parte Diária Informatizada) e <b>frequencia.prf.gov.br</b> (controle de frequência) — e só para quem já tem acesso a eles com o próprio login. Ela <b>não envia nenhum dado para servidores do autor ou de terceiros</b>, não usa ferramentas de análise ou publicidade e não vende nem compartilha dados.</p>
@@ -35,6 +35,7 @@
     <li>afastamentos (inclusive licenças de saúde, usadas para indicar restrições na seleção de voluntários de IFR);</li>
     <li>registros de frequência, horas de IFR e saldos de banco de horas.</li>
   </ul>
+  <p>No módulo Sinistros, a extensão também lê um arquivo que <b>o próprio usuário baixa</b> dos dados abertos da PRF (sinistros agrupados por ocorrência) e escolhe importar. O arquivo é lido no navegador e só os registros da delegacia escolhida são guardados. O traçado das rodovias (Sistema Nacional de Viação, do DNIT) e as sedes dos municípios (IBGE) vêm dentro do pacote da extensão; o mapa não usa serviço de mapas de terceiros.</p>
   <p>A extensão não lê nem guarda senhas: o login é feito pelo usuário, nas telas dos próprios sistemas.</p>
 
   <h2>O que fica guardado e onde</h2>
@@ -45,6 +46,7 @@
     <tr><td>Escala de serviço copiada da PDI</td><td>Conferir plantões na seleção de voluntários de IFR</td><td>Apagada automaticamente após 35 dias</td></tr>
     <tr><td>Folhas e saldos do banco de horas</td><td>Painel do banco de horas</td><td>Apagadas automaticamente após 60 dias</td></tr>
     <tr><td>Matrículas, seleção de IFR em andamento</td><td>Continuar o trabalho depois de recarregar a página</td><td>Até o usuário apagar</td></tr>
+    <tr><td>Sinistros da delegacia importados dos dados abertos da PRF (dados públicos)</td><td>Mapa, trechos críticos, proposta de emprego e cobertura do planejamento</td><td>Até o usuário apagar ou importar de novo</td></tr>
     <tr><td>Preferências, configurações da delegacia, banco de narrativas</td><td>Ajustes de uso da extensão</td><td>Até o usuário apagar</td></tr>
   </table>
   <p>Esses dados não saem do computador do usuário. A permissão <code>storage</code> do Chrome é usada apenas para isso.</p>
